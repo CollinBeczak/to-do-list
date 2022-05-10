@@ -1,0 +1,84 @@
+.container {
+  margin: auto;
+  padding: auto;
+  width: 25em;
+  height: 30em;
+  text-align: center;
+  justify-content: center;
+}
+
+.title {
+  background-color: aquamarine;
+  height: 3em;
+  padding: .75em;
+}
+
+.creatorContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.list {
+  list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+input {
+  margin: .025em;
+  cursor: auto;
+}
+
+
+.input {
+  text-align: right;
+  margin: .5em;
+}
+
+.submit {
+  padding: 10px;
+  width: 25%;
+  background: #d9d9d9;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-control {
+  width: 10em;
+}
+
+ul{
+  margin-left: 0;
+  padding-left: 0;
+}
+
+li {
+  margin-left: 0;
+  padding-left: 0;
+  text-align: right;
+}
+
+.date {
+  padding-right: 1.5em;
+  font-size: x-small;
+  color: grey
+}
+
+.trash.alternate.icon {
+  color: red;
+  float: right;
+  padding-right: 3.5em;
+}
+
+.todo {
+  float: left;
+  text-align: left;
+  padding-left: 3em;
+  max-width: 180px;
+  max-height: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
